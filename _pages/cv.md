@@ -11,8 +11,6 @@ redirect_from:
 
 <object data="https://alexanderfertig.github.io/files/afertig_cv.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://alexanderfertig.github.io/files/afertig_cv.pdf">
-        This browser does not support PDFs. Please download the PDF <a href="https://alexanderfertig.github.io/files/afertig_cv.pdf" target="_blank"><u>here</u></a> to view it.
         </embed>
 </object>
-
-<p> </p>
+If the above plugin is not supported, you can download this document [here](https://alexanderfertig.github.io/files/afertig_cv.pdf).
