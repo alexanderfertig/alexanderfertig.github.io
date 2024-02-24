@@ -14,17 +14,19 @@ gem "github-pages", group: :jekyll_plugins
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
+#gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "wdm"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-archives"
-  # gem "jekyll-feed"
-  # gem 'jekyll-sitemap'
-  # gem 'hawkins'
-  gem "webrick", "~> 1.8"
+  gem "jekyll-archives"
+  gem "jekyll-feed"
+  gem 'jekyll-sitemap'
+  gem 'hawkins'
+  # gem "webrick", "~> 1.8"
+  gem "webrick"
   gem 'tzinfo-data'
   gem 'tzinfo', '>= 1', '< 3'
 end
