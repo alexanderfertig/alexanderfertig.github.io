@@ -5,9 +5,6 @@ main:
 
 #  - title: "Talks"
 #    url: /talks/    
-
-#  - title: "Teaching"
-#    url: /teaching/    
     
 #  - title: "Portfolio"
 #    url: /portfolio/
@@ -15,11 +12,14 @@ main:
 #  - title: "Blog Posts"
 #    url: /year-archive/
 
-  - title: "Home"
+  - title: "About"
     url: /about/
-    
-  - title: "CV"
-    url: /cv/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Teaching"
+    url: /teaching/
     
 #  - title: "Guide"
 #    url: /markdown/

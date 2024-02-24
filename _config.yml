@@ -12,7 +12,7 @@ github: [metadata]
 locale                   : "en-US"
 title                    : "Alexander Fertig"
 title_separator          : "-"
-name                     : &name "Alexander J. Fertig"
+name                     : &name "Alexander Fertig"
 description              : &description "PhD Candidate in Economics & Public Policy"
 url                      : https://alexanderfertig.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -281,7 +281,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Detroit # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
