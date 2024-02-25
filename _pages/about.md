@@ -2,9 +2,6 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 I am a PhD Candidate in Economics and [Public Policy](https://fordschool.umich.edu/phd) at the University of Michigan, and a Graduate Fellow in the Demography Training Program at the Population Studies Center ([PSC](https://psc.isr.umich.edu/)). My research interests are in development and labor economics, with a focus on international migration. Specifically, I am interested in patterns of short-term labor migration, and understanding how migration decisions shape origin-country development through remittances, information networks, and labor market changes.
