@@ -11,4 +11,23 @@ I am a PhD Candidate in Economics and [Public Policy](https://fordschool.umich.e
 
 I previously worked as a Research Manager with Innovations for Poverty Action ([IPA](https://poverty-action.org/)) in Namibia and Myanmar, where I managed Randomized Controlled Trials of policy interventions for local government and NGOs. I have a BA in Mathematics and Economics from Wesleyan University and an MPA from Columbia University.
 
-See [here](https://alexanderfertig.github.io/files/afertig_cv.pdf) for complete CV and contact information.
+Click below for complete CV and contact information.
+
+<style>
+  .custom-link {
+    background-color: #f0f0f0; /* Light gray */
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: black;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  .custom-link:hover {
+    background-color: #d0d0d0; /* Darker shade of gray */
+  }
+</style>
+
+<a href="https://alexanderfertig.github.io/files/afertig_cv.pdf" class="custom-link">
+    <i class="fa fa-file-alt"></i> **Curriculum Vitae**
+</a>
