@@ -183,9 +183,10 @@
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
-
-    &:hover {
-      color: $masthead-link-color-hover;
+    @media (hover: hover) {
+      &:hover {
+        color: $masthead-link-color-hover;
+      }
     }
   }
 
@@ -240,11 +241,12 @@
             -ms-transform: scaleX(0);
                 transform: scaleX(0); /* hide*/
       }
-
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+      @media (hover: hover) {
+        &:hover:before {
+          -webkit-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+                  transform: scaleX(1); /* reveal*/
+        }
       }
     }
   }
