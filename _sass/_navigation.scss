@@ -188,8 +188,10 @@
         color: $masthead-link-color-hover;
       }
     }
-    &:active {
-      color: $masthead-link-color-hover;
+    @media (hover: none) {
+      &:active {
+        color: $masthead-link-color-hover;
+      }
     }
   }
 
@@ -251,10 +253,12 @@
                   transform: scaleX(1); /* reveal*/
         }
       }
-      &:active:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
+      @media (hover: none) {
+        &:active:before {
+          -webkit-transform: scaleX(1);
+              -ms-transform: scaleX(1);
+                  transform: scaleX(1); /* reveal*/
+        }
       }
     }
   }
