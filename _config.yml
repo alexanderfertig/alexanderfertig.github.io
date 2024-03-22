@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 github: [metadata]
@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "profile.jpg"
   name             : "Alexander J. Fertig"
-  pronouns         : # example: "he/him"  
+  pronouns         : # example: "he/him"
   bio              : "PhD Candidate in Economics & Public Policy"
   location         : "Ann Arbor, MI"
   employer         : "University of Michigan"
   uri              : # "https://www.alexanderfertig.com/"
-  email            : "afertig@umich.edu" 
+  email            : "afertig@umich.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -45,8 +45,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "alexanderfertig"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
   bluesky          : # Replace this with you Bluesky username
