@@ -13,13 +13,13 @@ main:
 #    url: /year-archive/
 
   - title: "Home"
-    url: /
+    url:
 
   - title: "Research"
-    url: /research/
+    url: /research
 
   - title: "Teaching"
-    url: /teaching/
+    url: /teaching
     
 #  - title: "Guide"
 #    url: /markdown/
