@@ -14,9 +14,17 @@
               {% assign domain = base_path %}
             {% endif %}
             {% if page.url == link.url %}
-              <li class="active_masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% if page.title and page.title == "Home" %}
+                <li class="active_masthead__menu-item"><a href="{{ domain }}">{{ link.title }}</a></li>
+                {% else %}
+                <li class="active_masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% endif %}
               {% else %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% if link.title and link.title == "Home" %}
+                <li class="masthead__menu-item"><a href="{{ domain }}">{{ link.title }}</a></li>
+                {% else %}
+                <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ul>
