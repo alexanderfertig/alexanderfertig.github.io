@@ -12,7 +12,7 @@ main:
 #  - title: "Blog Posts"
 #    url: /year-archive
 
-  - title: "Home"
+  - title: "HOME"
     url: /
 
   - title: "Research"

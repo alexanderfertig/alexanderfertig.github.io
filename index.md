@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "HOME"
 author_profile: true
 ---
 
