@@ -46,13 +46,8 @@
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
 {% if seo_url %}
-  {% if page.title and page.title == "Home" %}
-    <link rel="canonical" href="{{ site.url }}">
-    <meta property="og:url" content="{{ site.url }}">
-  {% else %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
-  {% endif %}
 {% endif %}
 
 {% if page.excerpt %}
