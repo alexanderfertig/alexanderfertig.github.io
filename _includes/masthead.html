@@ -6,21 +6,25 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          {% if page.url == "/" %}
-            <li class="active_masthead__menu-item active_masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-            {% else %}
-            <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% endif %}
           {% for link in site.data.navigation.main %}
+            {% if link.url == "/" %}
+              {% if page.url == "/" %}
+                <li class="active_masthead__menu-item active_masthead__menu-item--lg"><a href="{{ base_path }}/">{{ link.title }}</a></li>
+                {% else %}
+                <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ link.title }}</a></li>
+              {% endif %}
+            {% endif %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            {% if page.url == link.url %}
-              <li class="active_masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-              {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.url != "/" %}
+              {% if page.url == link.url %}
+                <li class="active_masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+                {% else %}
+                <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ul>
