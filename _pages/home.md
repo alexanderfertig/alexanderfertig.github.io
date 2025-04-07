@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Alexander Fertig"
+title: "Home"
 author_profile: true
 ---
 
