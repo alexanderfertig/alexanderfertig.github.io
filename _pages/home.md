@@ -8,7 +8,7 @@ I am a PhD Candidate in Economics and [Public Policy](https://fordschool.umich.e
 
 I previously worked as a Research Manager with Innovations for Poverty Action ([IPA](https://poverty-action.org/){:target="_blank"}) in Namibia and Myanmar, where I managed Randomized Controlled Trials of policy interventions for local government and NGOs. I have a BA in Mathematics and Economics from Wesleyan University and an MPA from Columbia University.
 
-**I am on the 2025--2026 Job Market and available for interviews.**
+**This fall I will be joining the Department of Economics at the University of New Mexico as an Assistant Professor.**
 
 Click below for complete CV and contact information.
 
