@@ -6,7 +6,7 @@ author_profile: true
 
 I am an Assistant Professor of Economics at the [University of New Mexico](https://econ.unm.edu/){:target="_blank"}, specializing in the fields of development economics, political economy, and labor economics. In my current work, I study the effects of internet access on political conflict, and whether these effects can help or harm resistance movements. I also work on topics related to international migration, women's economic empowerment, and the long-run impacts of reparations.
 
-I earned a Ph.D. in Public Policy and Economics at the [University of Michigan](https://fordschool.umich.edu/phd){:target="_blank"} in 2026, and an M.P.A at [Columbia University](https://www.sipa.columbia.edu/sipa-education/masters-programs/mpa-development-practice){:target="_blank"} in 2016.
+I earned a Ph.D. in Public Policy and Economics from the [University of Michigan](https://fordschool.umich.edu/phd){:target="_blank"} in 2026, and an M.P.A from [Columbia University](https://www.sipa.columbia.edu/sipa-education/masters-programs/mpa-development-practice){:target="_blank"} in 2016.
 
 Click below for complete CV and contact information.
 
