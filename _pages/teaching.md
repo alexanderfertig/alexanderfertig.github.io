@@ -4,7 +4,7 @@ title: "Teaching"
 author_profile: true
 ---
 
-As a graduate teaching assistant, I have taught economics and policy courses to both graduate and undergraduate students, including three semesters of the core introductory course on econometric methods at the University of Michigan.
+I have taught economics and policy courses to both graduate and undergraduate students, including three semesters of the core introductory course on econometric methods at the University of Michigan.
 
 University of Michigan
 ------
